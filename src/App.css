@@ -11,13 +11,6 @@
     text-decoration: none;
 }
 
-:root {
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
-}
-
 html {
     scroll-behavior: smooth;
 
@@ -50,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 button {
   border: 0;
   background-color: transparent;
@@ -59,20 +56,4 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
-}
-
-/*RESPONSIVE (MEDIUM DEVICES)*/
-
-@media screen and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
-    }
-}
-
-/*RESPONSIVE (SMALL DEVICES)*/
-
-@media screen and (max-width: 600px){
-    .container{
-        width: var(--container-width-sm);
-    }
 }

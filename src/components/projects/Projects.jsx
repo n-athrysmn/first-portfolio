@@ -1,65 +1,123 @@
-import meter1 from "../../assets/meter1.svg"
-import meter2 from "../../assets/meter2.svg"
-import meter3 from "../../assets/meter3.svg"
-import Carousel from 'react-multi-carousel'
-import 'react-multi-carousel/lib/styles.css'
-import arrow1 from "../../assets/arrow1.svg"
-import arrow2 from "../../assets/arrow2.svg"
-import colorSharp from "../../assets/color-sharp.png"
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap"
+import ProjectCards  from './ProjectCards'
+import ProjectAR  from './ProjectAR'
+import ProjectLCP  from './ProjectLCP'
+import ProjectGR  from './ProjectGR'
+import ProjectTC  from './ProjectTC'
+import ProjectOther  from './ProjectOther'
+import colorSharp2 from "../../assets/color-sharp2.png"
 import './projects.css'
+import TrackVisibility from 'react-on-screen'
 
-const Projects = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
+export const Projects = () => {
 
   return (
-    <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+    <section className="project" id="project">
+      <Container>
+        <Row>
+          <Col size={12}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+                <h2>Projects</h2>
+                <p>Discover the Power of my expertise: An in-depth look at my all of my past software related projects.</p>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">ArRiyad</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="second">LCP Buildsoft Technology</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="third">GR Tech</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="forth">Top Click</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fifth">Others</Nav.Link>
+                    </Nav.Item>
+                  </Nav>
+                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                    <Tab.Pane eventKey="first">
+                      <Row>
+                        {
+                          ProjectAR.map((ProjectAR, index) => {
+                            return (
+                              <ProjectCards
+                                key={index}
+                                {...ProjectAR}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <Row>
+                        {
+                          ProjectLCP.map((ProjectLCP, index) => {
+                            return (
+                              <ProjectCards
+                                key={index}
+                                {...ProjectLCP}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="third">
+                      <Row>
+                        {
+                          ProjectGR.map((ProjectGR, index) => {
+                            return (
+                              <ProjectCards
+                                key={index}
+                                {...ProjectGR}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="forth">
+                      <Row>
+                        {
+                          ProjectTC.map((ProjectTC, index) => {
+                            return (
+                              <ProjectCards
+                                key={index}
+                                {...ProjectTC}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fifth">
+                      <Row>
+                        {
+                          ProjectOther.map((ProjectOther, index) => {
+                            return (
+                              <ProjectCards
+                                key={index}
+                                {...ProjectOther}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                  </Tab.Content>
+                </Tab.Container>
+              </div>}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
+      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }

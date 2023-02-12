@@ -26,6 +26,7 @@
   .contact form input:focus, .contact form textarea:focus {
     background: rgba(255, 255, 255, 1);
     color: #121212;
+    border-radius: 13px;
   }
   .contact form input::placeholder, .contact form textarea::placeholder {
     font-size: 16px;
@@ -43,13 +44,14 @@
     padding: 14px 48px;
     font-size: 18px;
     margin-top: 25px;
-    border-radius: 0;
+    border-radius: 13px;
     position: relative;
     transition: 0.3s ease-in-out;
   }
   .contact form button span {
     z-index: 1;
     position: relative;
+    border-radius: 13px;
   }
   .contact form button:hover {
     color: #fff;
@@ -64,7 +66,9 @@
     left: 0;
     z-index: 0;
     transition: 0.3s ease-in-out;
+    border-radius: 13px;
   }
   .contact form button:hover::before {
     width: 100%;
+    border-radius: 13px;
   }

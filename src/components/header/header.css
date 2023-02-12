@@ -5,11 +5,11 @@
   .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
-    padding: 8px 10px;font-size: 20px;
+    padding: 8px 10px;
+    font-size: 20px;
     border-radius: 5px;
     margin-bottom: 16px;
     display: inline-block;
-    color: #fff;
   }
   .banner h1 {
     font-size: 65px;
@@ -18,7 +18,6 @@
     line-height: 1;
     margin-bottom: 20px;
     display: block;
-    color: #fff;
   }
   .banner p {
     color: #B8B8B8;
