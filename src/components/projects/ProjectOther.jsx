@@ -1,11 +1,11 @@
-import mashacat from "../../assets/mashacat.png"
+import padurok from "../../assets/padurok.png"
 
 const ProjectOther = [
     {
       title: "Padu Rok Resources",
       description: "Design & Development",
-      
-      imgUrl: mashacat,
+      url: "",
+      imgUrl: padurok,
     },
   ]
 

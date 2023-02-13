@@ -35,9 +35,9 @@ const Navibar = () => {
             <div className='toggler'><span onClick={handleClick}>{isClicked ? <FaTimes/> : <FaBars/> }</span></div>
             <ul className={isClicked ? 'MenuList active' : 'MenuList' }>
                 <li><a className='nav-items' href="#home"><FaHome/> Home</a></li>
-                <li><a className='nav-items' href="#about"><FaUserGraduate/> About</a></li>
+                {/* <li><a className='nav-items' href="#about"><FaUserGraduate/> About</a></li> */ }
                 <li><a className='nav-items' href="#projects"><FaBriefcase/> Projects</a></li>
-                <li><a className='nav-items' href="#contacts"><FaPhoneAlt/> Contacts</a></li>
+                {/* <li><a className='nav-items' href="#contacts"><FaPhoneAlt/> Contacts</a></li> */ }
                 <li><a className='nav-items' href="https://api.whatsapp.com/send?phone=60192549717&text=Hi%20Athira!" target={'_blank'}><FaWhatsapp/></a></li>
                 <li><a className='nav-items' href="https://www.linkedin.com/in/noraathira/" target={'_blank'}><FaLinkedinIn/></a></li>
             </ul>

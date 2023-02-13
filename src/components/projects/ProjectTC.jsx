@@ -4,37 +4,37 @@ const ProjectTC = [
     {
       title: "Business Startup",
       description: "Design & Development",
-      
+      url: "",
       imgUrl: mashacat,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      
+      url: "",
       imgUrl: mashacat,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      
+      url: "",
       imgUrl: mashacat,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      
+      url: "",
       imgUrl: mashacat,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      
+      url: "",
       imgUrl: mashacat,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      
+      url: "",
       imgUrl: mashacat,
     },
   ]
