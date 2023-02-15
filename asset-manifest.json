@@ -1,14 +1,31 @@
 {
   "files": {
-    "main.css": "/first-portfolio/static/css/main.d2c18ba8.css",
-    "main.js": "/first-portfolio/static/js/main.e09720fe.js",
+    "main.css": "/first-portfolio/static/css/main.ccbaad9a.css",
+    "main.js": "/first-portfolio/static/js/main.93e6af6c.js",
     "static/js/787.e698ff76.chunk.js": "/first-portfolio/static/js/787.e698ff76.chunk.js",
     "static/media/logo.png": "/first-portfolio/static/media/logo.e508a544a7cf11c55e92.png",
-    "static/media/mashacat.png": "/first-portfolio/static/media/mashacat.2521d44ae976b5e9bf61.png",
+    "static/media/mashacat.png": "/first-portfolio/static/media/mashacat.7659827e231b249f873f.png",
+    "static/media/dupdapwellness.png": "/first-portfolio/static/media/dupdapwellness.9ac99ccb0472146368c1.png",
+    "static/media/padurok.png": "/first-portfolio/static/media/padurok.e32b84cd30cf9d4ba149.png",
+    "static/media/muizhotchicken.png": "/first-portfolio/static/media/muizhotchicken.22cce0cc1b77bf5c04b5.png",
+    "static/media/followermy.png": "/first-portfolio/static/media/followermy.eb2643a9a8e55361d2db.png",
     "static/media/color-sharp.png": "/first-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/first-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/xmallmerchant.png": "/first-portfolio/static/media/xmallmerchant.f8cb5d0481a7386cddab.png",
+    "static/media/hostelmanagement.png": "/first-portfolio/static/media/hostelmanagement.5d6e6016e3edd14c22fc.png",
+    "static/media/xmalladmin.png": "/first-portfolio/static/media/xmalladmin.ffd77f55d57fe7ddbee3.png",
+    "static/media/Resume-NORA-ATHIRA-YASMIN-KASSIM.pdf": "/first-portfolio/static/media/Resume-NORA-ATHIRA-YASMIN-KASSIM.725c15e563a5548c741d.pdf",
+    "static/media/shirlynmail.png": "/first-portfolio/static/media/shirlynmail.7c6693e8568d3d3a9f4a.png",
+    "static/media/xclub.png": "/first-portfolio/static/media/xclub.ebf916342209d277e4a1.png",
+    "static/media/jsh.png": "/first-portfolio/static/media/jsh.42f01fde3aeefd637eb2.png",
+    "static/media/tokanhelmet.png": "/first-portfolio/static/media/tokanhelmet.c0b7a5216283e5ae0759.png",
+    "static/media/eticketing2u.png": "/first-portfolio/static/media/eticketing2u.4d1f709d07ccb23a52b9.png",
+    "static/media/zontools.png": "/first-portfolio/static/media/zontools.93ebae3cb679777bbdd5.png",
     "static/media/banner-bg.png": "/first-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/amzalert.png": "/first-portfolio/static/media/amzalert.d6b5eae52b9f55f851a3.png",
     "static/media/header-img.svg": "/first-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/taylorexam.png": "/first-portfolio/static/media/taylorexam.29f079db2eb2e61f8def.png",
+    "static/media/whizzl.png": "/first-portfolio/static/media/whizzl.77c5a7ca84898c36c83a.png",
     "static/media/footer-bg.png": "/first-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/contact-img.svg": "/first-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/first-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -20,12 +37,12 @@
     "index.html": "/first-portfolio/index.html",
     "static/media/arrow2.svg": "/first-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/first-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.d2c18ba8.css.map": "/first-portfolio/static/css/main.d2c18ba8.css.map",
-    "main.e09720fe.js.map": "/first-portfolio/static/js/main.e09720fe.js.map",
+    "main.ccbaad9a.css.map": "/first-portfolio/static/css/main.ccbaad9a.css.map",
+    "main.93e6af6c.js.map": "/first-portfolio/static/js/main.93e6af6c.js.map",
     "787.e698ff76.chunk.js.map": "/first-portfolio/static/js/787.e698ff76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2c18ba8.css",
-    "static/js/main.e09720fe.js"
+    "static/css/main.ccbaad9a.css",
+    "static/js/main.93e6af6c.js"
   ]
 }
