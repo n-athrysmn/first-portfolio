@@ -26,7 +26,8 @@
     line-height: 1.5em;
     width: 96%;
   }
-  .banner button {
+  .button {
+    text-decoration: none;
     color: #fff;
     font-weight: 700;
     font-size: 20px;
@@ -35,14 +36,17 @@
     display: flex;
     align-items: center;
   }
-  .banner button svg {
+  .button svg {
     font-size: 25px;
     margin-left: 10px;
     transition: 0.3s ease-in-out;
     line-height: 1;
   }
-  .banner button:hover svg {
+  .button:hover svg {
     margin-left: 25px;
+  }
+  .button:hover {
+    color: #fff;
   }
   .banner img {
     animation: updown 3s linear infinite;

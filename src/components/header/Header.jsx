@@ -2,6 +2,7 @@ import './header.css'
 import { React, useState, useEffect } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import headerImg from "../../assets/header-img.svg"
+import cv from "../../assets/Resume-NORA-ATHIRA-YASMIN-KASSIM.pdf"
 import { BsArrowRightCircle } from 'react-icons/bs'
 import TrackVisibility from 'react-on-screen'
 
@@ -58,7 +59,7 @@ const Header = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Nora, `} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
                   <p>As a Junior Software Engineer, I have a strong foundation in HTML, CSS, PHP (Laravel), JavaScript, MySQL, NoSQL (MongoDB), ReactJS, CPanel, Hostinger, Project Management, and WordPress. </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <BsArrowRightCircle size={25} /></button>
+                  <a href={cv} className="button">View Resume <BsArrowRightCircle size={25} /></a>
               </div>}
             </TrackVisibility>
           </Col>
