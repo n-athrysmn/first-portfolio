@@ -9,7 +9,7 @@ const ProjectCards = ({ title, description, url, imgUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span><br/>
-          <span><a className="projUrl" href={url}>Open Project <BsArrowUpRightCircle /></a></span>
+          <span><a className="projUrl" href={url} target="_blank">Open Project <BsArrowUpRightCircle /></a></span>
         </div>
       </div>
     </Col>

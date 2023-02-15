@@ -59,7 +59,7 @@ const Header = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Nora, `} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
                   <p>As a Junior Software Engineer, I have a strong foundation in HTML, CSS, PHP (Laravel), JavaScript, MySQL, NoSQL (MongoDB), ReactJS, CPanel, Hostinger, Project Management, and WordPress. </p>
-                  <a href={cv} className="button">View Resume <BsArrowRightCircle size={25} /></a>
+                  <a href={cv} className="button" target="_blank">View Resume <BsArrowRightCircle size={25} /></a>
               </div>}
             </TrackVisibility>
           </Col>

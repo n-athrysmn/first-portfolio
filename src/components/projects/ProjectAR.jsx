@@ -9,37 +9,37 @@ const ProjectAR = [
     {
       title: "Follower.my",
       description: "Design & Development",
-      url: "",
+      url: "https://follower.my/",
       imgUrl: follower,
     },
     {
       title: "Shirlyn Mail",
       description: "Design & Development",
-      url: "",
+      url: "https://my.shirlynmail.com/",
       imgUrl: shirlyn,
     },
     {
       title: "Muiz Hot Chicken",
       description: "Design & Development",
-      url: "",
+      url: "https://muizhotchicken.com.my/",
       imgUrl: muiz,
     },
     {
       title: "DupDap Wellness",
       description: "Design & Development",
-      url: "",
+      url: "https://dupdap.my/",
       imgUrl: dupdap,
     },
     {
       title: "Tokan Helmet",
       description: "Design & Development",
-      url: "",
+      url: "https://tokanhelmet.com/",
       imgUrl: tokanhelmet,
     },
     {
       title: "MashaCat",
       description: "Design & Development",
-      url: "",
+      url: "https://www.mashacat.com/",
       imgUrl: mashacat,
     },
   ]

@@ -16,37 +16,37 @@ const ProjectLCP = [
     {
       title: "XMall - Admin",
       description: "Design & Development",
-      url: "",
+      url: "https://lcpsolution.com/xmall_admin/login",
       imgUrl: xmadmin,
     },
     {
       title: "XMall - Merchant",
       description: "Design & Development",
-      url: "",
+      url: "https://lcpsolution.com/xmall/login",
       imgUrl: xmmerchant,
     },
     {
       title: "XClub",
       description: "Design & Development",
-      url: "",
+      url: "https://lcpbuildsofttechnology.com/xclub",
       imgUrl: xclub,
     },
     {
       title: "Assets Managment System",
       description: "Design & Development",
-      url: "",
+      url: "https://lcpsolution.com/asset_management/",
       imgUrl: mashacat,
     },
     {
       title: "eTicketing2u",
       description: "Design & Development",
-      url: "",
+      url: "https://eticketing2u.com.my/",
       imgUrl: e2u,
     },
     {
       title: "Whizzl - Management System",
       description: "Design & Development",
-      url: "",
+      url: "https://businessdev.whizzl.io/",
       imgUrl: whizzl,
     },
     {

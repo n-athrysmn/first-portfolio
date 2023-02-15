@@ -4,7 +4,7 @@ const ProjectOther = [
     {
       title: "Padu Rok Resources",
       description: "Design & Development",
-      url: "",
+      url: "https://padurokresources.com/",
       imgUrl: padurok,
     },
   ]
