@@ -36,3 +36,7 @@
     width: 40%;
     z-index: -4;
   }
+
+  .react-multiple-carousel__arrow{
+    z-index: 0 !important;
+  }
