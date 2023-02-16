@@ -3,7 +3,7 @@ import { BsArrowUpRightCircle } from 'react-icons/bs'
 
 const ProjectCards = ({ title, description, url, imgUrl }) => {
   return (
-    <Col size={12} sm={6} md={4}>
+    <Col size={12} sm={6} md={6} xl={4}>
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
