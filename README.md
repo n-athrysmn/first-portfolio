@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+<!-- ABOUT THE PROJECT -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
 
-## Available Scripts
+This project is my first formal portfolio built using Reactjs.
 
-In the project directory, you can run:
+### Built With
 
-### `yarn start`
+The following technologies were used in this project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [![YARN][YARN]][YARN-url]
+- [![REACT][REACTJS]][REACT-url]
+- [![GitHub][GitHub]][GitHub-url]
+- [![GitHubPages][GitHubPages]][GitHub-url]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- GETTING STARTED -->
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get this application running in your system, please follow the instructions below:
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started, you must have the following in your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- nodejs
+- yarn
+- vscode (optional)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `yarn eject`
+After having the prerequisites technologies, you can follow the step below to run this project in your local machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repo
+   ```sh
+   git clone https://github.com/n-athrysmn/first-portfolio.git
+   ```
+2. Open the project in VS Code (or any code editor/ide of your choosing). You can also open terminal and type the following.
+   ```sh
+   code .
+   ```
+3. Install NPM packages
+   ```sh
+   yarn install
+   ```
+4. Run the project
+   ```js
+   yarn start
+   ```
+5. Push the changes to your repository.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   git push -u origin main
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. For deployment purposes, go to the package.json file and change the homepage link according to the format below.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```sh
+   https://your-github-username.github.io/project-repository/
+   ```
 
-## Learn More
+7. Be sure to push all changes before you start deploying the project. To deploy the project in your GitHub Pages, run the command below in the terminal.
+   ```sh
+   npm run deploy
+   ```
+8. After a few minutes, you will be able to see the project live on the link you put on step 6. If you made more changes, you can just run the command in step 7 to redeploy.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- CONTACT -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+Nora Athira Yasmin Binti Kassim - [LinkedIn Profile](https://www.linkedin.com/in/noraathira/) - athira.ysmn@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Project Link: [Link to github pages](https://n-athrysmn.github.io/first-portfolio/)
 
-### Analyzing the Bundle Size
+<!-- ACKNOWLEDGMENTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+Get technologies badges for your README file from the link below!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [GitHub badges](https://github.com/Ileriayo/markdown-badges)
 
-### Advanced Configuration
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Mongodb]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
+[Mongodb-url]: https://www.mongodb.com/
+[GitHub]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[GitHubPages]: https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com/
+[YARN]: https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white
+[YARN-url]: https://www.npmjs.com/
+[REACTJS]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[REACT-url]: https://angular.io/
