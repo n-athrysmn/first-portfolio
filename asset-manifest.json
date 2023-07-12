@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/first-portfolio/static/css/main.d8e0e69e.css",
-    "main.js": "/first-portfolio/static/js/main.f0ffba6d.js",
+    "main.js": "/first-portfolio/static/js/main.eecb6ced.js",
     "static/js/787.e698ff76.chunk.js": "/first-portfolio/static/js/787.e698ff76.chunk.js",
     "static/media/logo.png": "/first-portfolio/static/media/logo.e508a544a7cf11c55e92.png",
     "static/media/khamsiah.png": "/first-portfolio/static/media/khamsiah.6a47b47413a025beedda.png",
     "static/media/mashacat.png": "/first-portfolio/static/media/mashacat.7659827e231b249f873f.png",
     "static/media/ios.png": "/first-portfolio/static/media/ios.3446501972259f89bbe0.png",
+    "static/media/humble.png": "/first-portfolio/static/media/humble.e78e58cf9cfa63217d3c.png",
     "static/media/dupdapwellness.png": "/first-portfolio/static/media/dupdapwellness.9ac99ccb0472146368c1.png",
     "static/media/jakel.png": "/first-portfolio/static/media/jakel.35dcb665194e9967f812.png",
     "static/media/arby.png": "/first-portfolio/static/media/arby.8e76eb963c53409a2040.png",
     "static/media/padurok.png": "/first-portfolio/static/media/padurok.e32b84cd30cf9d4ba149.png",
+    "static/media/uneiknyo.png": "/first-portfolio/static/media/uneiknyo.88a2e3135a51e5075e5b.png",
     "static/media/muizhotchicken.png": "/first-portfolio/static/media/muizhotchicken.22cce0cc1b77bf5c04b5.png",
     "static/media/followermy.png": "/first-portfolio/static/media/followermy.eb2643a9a8e55361d2db.png",
     "static/media/merch.png": "/first-portfolio/static/media/merch.994e68d2267b11ee8a0c.png",
@@ -48,11 +50,11 @@
     "static/media/arrow2.svg": "/first-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/first-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.d8e0e69e.css.map": "/first-portfolio/static/css/main.d8e0e69e.css.map",
-    "main.f0ffba6d.js.map": "/first-portfolio/static/js/main.f0ffba6d.js.map",
+    "main.eecb6ced.js.map": "/first-portfolio/static/js/main.eecb6ced.js.map",
     "787.e698ff76.chunk.js.map": "/first-portfolio/static/js/787.e698ff76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8e0e69e.css",
-    "static/js/main.f0ffba6d.js"
+    "static/js/main.eecb6ced.js"
   ]
 }
