@@ -10,7 +10,7 @@ const Footer = () => {
 			<footer className='FooterMenu'>
 				<ul className='FooterList'>
 					<li>
-						<a href='/'>
+						<a href='https://n-athrysmn.github.io/first-portfolio/'>
 							<img src={logo} alt='Logo' style={{ width: '200px' }} />
 						</a>
 					</li>

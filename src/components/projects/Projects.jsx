@@ -3,7 +3,7 @@ import ProjectCards from './ProjectCards'
 import ProjectAR from './ProjectAR'
 import ProjectLCP from './ProjectLCP'
 import ProjectGR from './ProjectGR'
-//import ProjectTC from './ProjectTC'
+import ProjectTC from './ProjectTC'
 import ProjectOther from './ProjectOther'
 import colorSharp2 from '../../assets/color-sharp2.png'
 import './projects.css'
@@ -79,18 +79,11 @@ export const Projects = () => {
 												</Row>
 											</Tab.Pane>
 											<Tab.Pane eventKey='forth'>
-												{/* <Row>
-                        {
-                          ProjectTC.map((ProjectTC, index) => {
-                            return (
-                              <ProjectCards
-                                key={index}
-                                {...ProjectTC}
-                                />
-                            )
-                          })
-                        }
-                      </Row> */}
+												<Row>
+													{ProjectTC.map((ProjectTC, index) => {
+														return <ProjectCards key={index} {...ProjectTC} />
+													})}
+												</Row>
 												<h3>To be updated...</h3>
 											</Tab.Pane>
 											<Tab.Pane eventKey='fifth'>
@@ -101,6 +94,7 @@ export const Projects = () => {
 														)
 													})}
 												</Row>
+												<h3>To be updated...</h3>
 											</Tab.Pane>
 										</Tab.Content>
 									</Tab.Container>

@@ -38,7 +38,7 @@ const Navibar = () => {
 		<Router>
 			<nav className={isScrolled ? 'NavbarMenu' : 'NavbarMenu scrolled'}>
 				<span className='logo'>
-					<a href='/'>
+					<a href='https://n-athrysmn.github.io/first-portfolio/'>
 						<img src={logo} alt='Logo' style={{ width: '100px' }} />
 					</a>
 				</span>
