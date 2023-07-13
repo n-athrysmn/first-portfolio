@@ -6,6 +6,7 @@ import xmadmin from '../../assets/xmalladmin.png'
 import xmmerchant from '../../assets/xmallmerchant.png'
 import assets from '../../assets/asset.png'
 import lcp from '../../assets/lcp.png'
+import loyalty from '../../assets/loyalty.png'
 import sfu from '../../assets/sfu.png'
 
 const ProjectLCP = [
@@ -68,19 +69,19 @@ const ProjectLCP = [
 		description:
 			'Angular, Firebase, OneSignal, AndroidStudio, MongoDb, WinSCP & Cordova',
 		url: '',
-		imgUrl: lcp,
+		imgUrl: loyalty,
 	},
 	{
 		title: 'Loyalty Memberships - Merchant',
 		description: 'Angular, MongoDb & WinSCP',
 		url: '',
-		imgUrl: lcp,
+		imgUrl: loyalty,
 	},
 	{
 		title: 'Loyalty Memberships - Admin',
 		description: 'Angular, MongoDb & WinSCP',
 		url: '',
-		imgUrl: lcp,
+		imgUrl: loyalty,
 	},
 ]
 
