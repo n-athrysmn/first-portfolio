@@ -3,6 +3,7 @@ import padurok from '../../assets/padurok.png'
 import uneiknyo from '../../assets/uneiknyo.png'
 import etiqa from '../../assets/etiqa.png'
 import tyaa from '../../assets/tyaa.png'
+import hello from '../../assets/hello.png'
 
 const ProjectOther = [
 	{
@@ -10,6 +11,12 @@ const ProjectOther = [
 		description: 'Blogger, HTML. CSS & JavaScript',
 		url: 'https://tyaajaynar.blogspot.com/',
 		imgUrl: tiara,
+	},
+	{
+		title: 'Hello Ferry',
+		description: 'HTML, CSS, JavaScript & PHP',
+		url: '',
+		imgUrl: hello,
 	},
 	{
 		title: 'Nora Athira Yasmin',
