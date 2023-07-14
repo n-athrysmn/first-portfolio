@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-portfolio/static/css/main.d8e0e69e.css",
-    "main.js": "/first-portfolio/static/js/main.10550293.js",
+    "main.js": "/first-portfolio/static/js/main.c3e58a41.js",
     "static/js/787.e698ff76.chunk.js": "/first-portfolio/static/js/787.e698ff76.chunk.js",
     "static/media/logo.png": "/first-portfolio/static/media/logo.e508a544a7cf11c55e92.png",
     "static/media/asia.png": "/first-portfolio/static/media/asia.7cac7a5157b154f1f261.png",
@@ -25,6 +25,7 @@
     "static/media/woboxa.png": "/first-portfolio/static/media/woboxa.33c4e9b5cb82e8c6e510.png",
     "static/media/beau.png": "/first-portfolio/static/media/beau.dac33a99dcb8a9d28659.png",
     "static/media/color-sharp2.png": "/first-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/hello.png": "/first-portfolio/static/media/hello.019a19fba609c436b9b0.png",
     "static/media/xmallmerchant.png": "/first-portfolio/static/media/xmallmerchant.f8cb5d0481a7386cddab.png",
     "static/media/hostelmanagement.png": "/first-portfolio/static/media/hostelmanagement.5d6e6016e3edd14c22fc.png",
     "static/media/xmalladmin.png": "/first-portfolio/static/media/xmalladmin.ffd77f55d57fe7ddbee3.png",
@@ -59,11 +60,11 @@
     "static/media/arrow2.svg": "/first-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/first-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.d8e0e69e.css.map": "/first-portfolio/static/css/main.d8e0e69e.css.map",
-    "main.10550293.js.map": "/first-portfolio/static/js/main.10550293.js.map",
+    "main.c3e58a41.js.map": "/first-portfolio/static/js/main.c3e58a41.js.map",
     "787.e698ff76.chunk.js.map": "/first-portfolio/static/js/787.e698ff76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8e0e69e.css",
-    "static/js/main.10550293.js"
+    "static/js/main.c3e58a41.js"
   ]
 }
