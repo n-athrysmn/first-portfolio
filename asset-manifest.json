@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-portfolio/static/css/main.d8e0e69e.css",
-    "main.js": "/first-portfolio/static/js/main.c3e58a41.js",
+    "main.css": "/first-portfolio/static/css/main.84b2b240.css",
+    "main.js": "/first-portfolio/static/js/main.b984dd0e.js",
     "static/js/787.e698ff76.chunk.js": "/first-portfolio/static/js/787.e698ff76.chunk.js",
     "static/media/logo.png": "/first-portfolio/static/media/logo.e508a544a7cf11c55e92.png",
     "static/media/asia.png": "/first-portfolio/static/media/asia.7cac7a5157b154f1f261.png",
@@ -33,6 +33,7 @@
     "static/media/aster.png": "/first-portfolio/static/media/aster.26d6bf61e4cbda568dff.png",
     "static/media/xclub.png": "/first-portfolio/static/media/xclub.ebf916342209d277e4a1.png",
     "static/media/jsh.png": "/first-portfolio/static/media/jsh.42f01fde3aeefd637eb2.png",
+    "static/media/NORAATHIRAYASMINBINTIKASSIM-(2023RESUME).pdf": "/first-portfolio/static/media/NORAATHIRAYASMINBINTIKASSIM-(2023RESUME).833433eb241ab70d70ff.pdf",
     "static/media/tokanhelmet.png": "/first-portfolio/static/media/tokanhelmet.c0b7a5216283e5ae0759.png",
     "static/media/tiara.png": "/first-portfolio/static/media/tiara.cd36aeb397dadf70fafd.png",
     "static/media/sfu.png": "/first-portfolio/static/media/sfu.2789ba7d059ed92871a0.png",
@@ -59,12 +60,12 @@
     "index.html": "/first-portfolio/index.html",
     "static/media/arrow2.svg": "/first-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/first-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.d8e0e69e.css.map": "/first-portfolio/static/css/main.d8e0e69e.css.map",
-    "main.c3e58a41.js.map": "/first-portfolio/static/js/main.c3e58a41.js.map",
+    "main.84b2b240.css.map": "/first-portfolio/static/css/main.84b2b240.css.map",
+    "main.b984dd0e.js.map": "/first-portfolio/static/js/main.b984dd0e.js.map",
     "787.e698ff76.chunk.js.map": "/first-portfolio/static/js/787.e698ff76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8e0e69e.css",
-    "static/js/main.c3e58a41.js"
+    "static/css/main.84b2b240.css",
+    "static/js/main.b984dd0e.js"
   ]
 }
