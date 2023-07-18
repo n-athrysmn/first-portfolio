@@ -35,6 +35,9 @@
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
+    border: solid transparent 3px;
+    padding: 15px;
+    border-radius: 10px;
   }
   .button svg {
     font-size: 25px;
@@ -46,6 +49,31 @@
     margin-left: 25px;
   }
   .button:hover {
+    color: #fff;
+  }
+  .button-sqr {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    border: solid #fff 3px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .button-sqr svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .button-sqr:hover svg {
+    margin-left: 25px;
+  }
+  .button-sqr:hover {
     color: #fff;
   }
   .banner img {

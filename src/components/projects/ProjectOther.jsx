@@ -14,7 +14,7 @@ const ProjectOther = [
 	},
 	{
 		title: 'Hello Ferry',
-		description: 'HTML, CSS, JavaScript & PHP',
+		description: 'HTML, CSS, JavaScript, Heroku & PHP',
 		url: '',
 		imgUrl: hello,
 	},

@@ -3,6 +3,7 @@ import { React, useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import headerImg from '../../assets/header-img.svg'
 import cv from '../../assets/NoraAthiraYasmin-Kassim-CV.pdf'
+import resume from '../../assets/NORAATHIRAYASMINBINTIKASSIM-(2023RESUME).pdf'
 import { BsArrowRightCircle } from 'react-icons/bs'
 import TrackVisibility from 'react-on-screen'
 
@@ -77,14 +78,28 @@ const Header = () => {
 										development team, but is open for any other opportunities
 										related to software development.
 									</p>
-									<a
-										href={cv}
-										className='button'
-										target='_blank'
-										rel='noreferrer'
-									>
-										View Resume <BsArrowRightCircle size={25} />
-									</a>
+									<Row>
+										<Col xl={6} md={12} sm={12}>
+											<a
+												href={resume}
+												target='_blank'
+												rel='noreferrer'
+												className='button'
+											>
+												View Resume <BsArrowRightCircle size={25} />
+											</a>
+										</Col>
+										<Col xl={6} md={12} sm={12}>
+											<a
+												href={cv}
+												className='button-sqr'
+												target='_blank'
+												rel='noreferrer'
+											>
+												View CV <BsArrowRightCircle size={25} />
+											</a>
+										</Col>
+									</Row>
 								</div>
 							)}
 						</TrackVisibility>
