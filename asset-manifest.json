@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/first-portfolio/static/css/main.84b2b240.css",
-    "main.js": "/first-portfolio/static/js/main.b984dd0e.js",
-    "static/js/787.e698ff76.chunk.js": "/first-portfolio/static/js/787.e698ff76.chunk.js",
+    "main.css": "/first-portfolio/static/css/main.90c83919.css",
+    "main.js": "/first-portfolio/static/js/main.dad4b3eb.js",
+    "static/js/453.a114f6fb.chunk.js": "/first-portfolio/static/js/453.a114f6fb.chunk.js",
     "static/media/logo.png": "/first-portfolio/static/media/logo.e508a544a7cf11c55e92.png",
+    "static/media/sirim.png": "/first-portfolio/static/media/sirim.163969332874a5274fcb.png",
+    "static/media/tnb.png": "/first-portfolio/static/media/tnb.4711c4dc408284c6e77c.png",
     "static/media/asia.png": "/first-portfolio/static/media/asia.7cac7a5157b154f1f261.png",
     "static/media/khamsiah.png": "/first-portfolio/static/media/khamsiah.6a47b47413a025beedda.png",
     "static/media/mashacat.png": "/first-portfolio/static/media/mashacat.7659827e231b249f873f.png",
@@ -33,7 +35,6 @@
     "static/media/aster.png": "/first-portfolio/static/media/aster.26d6bf61e4cbda568dff.png",
     "static/media/xclub.png": "/first-portfolio/static/media/xclub.ebf916342209d277e4a1.png",
     "static/media/jsh.png": "/first-portfolio/static/media/jsh.42f01fde3aeefd637eb2.png",
-    "static/media/NORAATHIRAYASMINBINTIKASSIM-(2023RESUME).pdf": "/first-portfolio/static/media/NORAATHIRAYASMINBINTIKASSIM-(2023RESUME).833433eb241ab70d70ff.pdf",
     "static/media/tokanhelmet.png": "/first-portfolio/static/media/tokanhelmet.c0b7a5216283e5ae0759.png",
     "static/media/tiara.png": "/first-portfolio/static/media/tiara.cd36aeb397dadf70fafd.png",
     "static/media/sfu.png": "/first-portfolio/static/media/sfu.2789ba7d059ed92871a0.png",
@@ -41,13 +42,13 @@
     "static/media/eticketing2u.png": "/first-portfolio/static/media/eticketing2u.4d1f709d07ccb23a52b9.png",
     "static/media/zontools.png": "/first-portfolio/static/media/zontools.93ebae3cb679777bbdd5.png",
     "static/media/banner-bg.png": "/first-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/SoftwareEngineer - NoraAthiraYasmin - CV.pdf": "/first-portfolio/static/media/SoftwareEngineer - NoraAthiraYasmin - CV.eeea6ceaf3a74ac7edaf.pdf",
     "static/media/amzalert.png": "/first-portfolio/static/media/amzalert.d6b5eae52b9f55f851a3.png",
     "static/media/header-img.svg": "/first-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/taylorexam.png": "/first-portfolio/static/media/taylorexam.29f079db2eb2e61f8def.png",
     "static/media/lms.png": "/first-portfolio/static/media/lms.45b912a7bcb448eb8053.png",
     "static/media/whizzl.png": "/first-portfolio/static/media/whizzl.77c5a7ca84898c36c83a.png",
     "static/media/footer-bg.png": "/first-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/NoraAthiraYasmin-Kassim-CV.pdf": "/first-portfolio/static/media/NoraAthiraYasmin-Kassim-CV.b42c6bac7cb278dd968f.pdf",
     "static/media/contact-img.svg": "/first-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/asset.png": "/first-portfolio/static/media/asset.079b1035213429566565.png",
     "static/media/etiqa.png": "/first-portfolio/static/media/etiqa.2454d481ccaba0e9063b.png",
@@ -60,12 +61,12 @@
     "index.html": "/first-portfolio/index.html",
     "static/media/arrow2.svg": "/first-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/first-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.84b2b240.css.map": "/first-portfolio/static/css/main.84b2b240.css.map",
-    "main.b984dd0e.js.map": "/first-portfolio/static/js/main.b984dd0e.js.map",
-    "787.e698ff76.chunk.js.map": "/first-portfolio/static/js/787.e698ff76.chunk.js.map"
+    "main.90c83919.css.map": "/first-portfolio/static/css/main.90c83919.css.map",
+    "main.dad4b3eb.js.map": "/first-portfolio/static/js/main.dad4b3eb.js.map",
+    "453.a114f6fb.chunk.js.map": "/first-portfolio/static/js/453.a114f6fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b2b240.css",
-    "static/js/main.b984dd0e.js"
+    "static/css/main.90c83919.css",
+    "static/js/main.dad4b3eb.js"
   ]
 }
