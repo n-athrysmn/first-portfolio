@@ -2,8 +2,7 @@ import './header.css'
 import { React, useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import headerImg from '../../assets/header-img.svg'
-import cv from '../../assets/NoraAthiraYasmin-Kassim-CV.pdf'
-import resume from '../../assets/NORAATHIRAYASMINBINTIKASSIM-(2023RESUME).pdf'
+import cv from '../../assets/SoftwareEngineer - NoraAthiraYasmin - CV.pdf'
 import { BsArrowRightCircle } from 'react-icons/bs'
 import TrackVisibility from 'react-on-screen'
 
@@ -73,20 +72,17 @@ const Header = () => {
 										</span>
 									</h1>
 									<p>
-										A young devoted Software Engineer. Always strive for a self
-										improvement in Software Engineering. Seeking for job in web
-										development team, but is open for any other opportunities
-										related to software development.
+										Full Stack Engineer with experience delivering scalable web and mobile applications using React, Node.js, Laravel, and cloud technologies. Proven track record in building high-impact features, optimizing performance, and integrating third-party services, with a strong focus on clean code, reliability, and user experience.
 									</p>
 									<Row>
 										<Col xl={6} md={12} sm={12}>
 											<a
-												href={resume}
+												href='https://athira-2026.vercel.app/'
 												target='_blank'
 												rel='noreferrer'
 												className='button'
 											>
-												View Resume <BsArrowRightCircle size={25} />
+												View 2026 Portfolio <BsArrowRightCircle size={25} />
 											</a>
 										</Col>
 										<Col xl={6} md={12} sm={12}>

@@ -5,6 +5,7 @@ import ProjectLCP from './ProjectLCP'
 import ProjectGR from './ProjectGR'
 import ProjectTC from './ProjectTC'
 import ProjectOther from './ProjectOther'
+import ProjectSS from './ProjectSS'
 import colorSharp2 from '../../assets/color-sharp2.png'
 import './projects.css'
 import TrackVisibility from 'react-on-screen'
@@ -34,7 +35,7 @@ export const Projects = () => {
 											id='pills-tab'
 										>
 											<Nav.Item>
-												<Nav.Link eventKey='first'>ArRiyad</Nav.Link>
+												<Nav.Link eventKey='first'>Strato Solutions</Nav.Link>
 											</Nav.Item>
 											<Nav.Item>
 												<Nav.Link eventKey='second'>
@@ -59,16 +60,16 @@ export const Projects = () => {
 										>
 											<Tab.Pane eventKey='first'>
 												<Row>
-													{ProjectAR.map((ProjectAR, index) => {
+													{ProjectSS.map((ProjectAR, index) => {
 														return <ProjectCards key={index} {...ProjectAR} />
 													})}
 												</Row>
 											</Tab.Pane>
 											<Tab.Pane eventKey='second'>
 												<Row>
-													{ProjectLCP.map((ProjectLCP, index) => {
-														return <ProjectCards key={index} {...ProjectLCP} />
-													})}
+													{[...ProjectAR, ...ProjectLCP].map((project, index) => (
+														<ProjectCards key={index} {...project} />
+													))};
 												</Row>
 											</Tab.Pane>
 											<Tab.Pane eventKey='third'>
@@ -84,7 +85,6 @@ export const Projects = () => {
 														return <ProjectCards key={index} {...ProjectTC} />
 													})}
 												</Row>
-												<h3>To be updated...</h3>
 											</Tab.Pane>
 											<Tab.Pane eventKey='fifth'>
 												<Row>
@@ -94,7 +94,6 @@ export const Projects = () => {
 														)
 													})}
 												</Row>
-												<h3>To be updated...</h3>
 											</Tab.Pane>
 										</Tab.Content>
 									</Tab.Container>
