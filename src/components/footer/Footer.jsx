@@ -27,7 +27,7 @@ const Footer = () => {
 					<li>
 						<a
 							className='foot-items'
-							href='https://www.linkedin.com/in/noraathira/'
+							href='https://www.linkedin.com/in/norakassim/'
 							target={'_blank'}
 							rel='noreferrer'
 						>
