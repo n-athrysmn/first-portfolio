@@ -69,7 +69,7 @@ After having the prerequisites technologies, you can follow the step below to ru
 
 ## Contact
 
-Nora Athira Yasmin Binti Kassim - [LinkedIn Profile](https://www.linkedin.com/in/noraathira/) - athira.ysmn@gmail.com
+Nora Athira Yasmin Binti Kassim - [LinkedIn Profile](https://www.linkedin.com/in/norakassim/) - athira.ysmn@gmail.com
 
 Project Link: [Link to github pages](https://n-athrysmn.github.io/first-portfolio/)
 
