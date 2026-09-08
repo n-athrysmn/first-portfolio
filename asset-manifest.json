@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/first-portfolio/static/css/main.90c83919.css",
-    "main.js": "/first-portfolio/static/js/main.dad4b3eb.js",
-    "static/js/453.a114f6fb.chunk.js": "/first-portfolio/static/js/453.a114f6fb.chunk.js",
+    "main.css": "/first-portfolio/static/css/main.84b2b240.css",
+    "main.js": "/first-portfolio/static/js/main.53b958eb.js",
+    "static/js/787.e698ff76.chunk.js": "/first-portfolio/static/js/787.e698ff76.chunk.js",
     "static/media/logo.png": "/first-portfolio/static/media/logo.e508a544a7cf11c55e92.png",
     "static/media/sirim.png": "/first-portfolio/static/media/sirim.163969332874a5274fcb.png",
     "static/media/tnb.png": "/first-portfolio/static/media/tnb.4711c4dc408284c6e77c.png",
+    "static/media/sf.png": "/first-portfolio/static/media/sf.5faaae4c1392b7d30b39.png",
     "static/media/asia.png": "/first-portfolio/static/media/asia.7cac7a5157b154f1f261.png",
     "static/media/khamsiah.png": "/first-portfolio/static/media/khamsiah.6a47b47413a025beedda.png",
     "static/media/mashacat.png": "/first-portfolio/static/media/mashacat.7659827e231b249f873f.png",
@@ -42,10 +43,10 @@
     "static/media/eticketing2u.png": "/first-portfolio/static/media/eticketing2u.4d1f709d07ccb23a52b9.png",
     "static/media/zontools.png": "/first-portfolio/static/media/zontools.93ebae3cb679777bbdd5.png",
     "static/media/banner-bg.png": "/first-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
-    "static/media/SoftwareEngineer - NoraAthiraYasmin - CV.pdf": "/first-portfolio/static/media/SoftwareEngineer - NoraAthiraYasmin - CV.eeea6ceaf3a74ac7edaf.pdf",
     "static/media/amzalert.png": "/first-portfolio/static/media/amzalert.d6b5eae52b9f55f851a3.png",
     "static/media/header-img.svg": "/first-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/taylorexam.png": "/first-portfolio/static/media/taylorexam.29f079db2eb2e61f8def.png",
+    "static/media/Software Engineer - Nora Athira Yasmin Binti Kassim.pdf": "/first-portfolio/static/media/Software Engineer - Nora Athira Yasmin Binti Kassim.99835a8412258a4d9bd5.pdf",
     "static/media/lms.png": "/first-portfolio/static/media/lms.45b912a7bcb448eb8053.png",
     "static/media/whizzl.png": "/first-portfolio/static/media/whizzl.77c5a7ca84898c36c83a.png",
     "static/media/footer-bg.png": "/first-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
@@ -61,12 +62,12 @@
     "index.html": "/first-portfolio/index.html",
     "static/media/arrow2.svg": "/first-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/first-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.90c83919.css.map": "/first-portfolio/static/css/main.90c83919.css.map",
-    "main.dad4b3eb.js.map": "/first-portfolio/static/js/main.dad4b3eb.js.map",
-    "453.a114f6fb.chunk.js.map": "/first-portfolio/static/js/453.a114f6fb.chunk.js.map"
+    "main.84b2b240.css.map": "/first-portfolio/static/css/main.84b2b240.css.map",
+    "main.53b958eb.js.map": "/first-portfolio/static/js/main.53b958eb.js.map",
+    "787.e698ff76.chunk.js.map": "/first-portfolio/static/js/787.e698ff76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c83919.css",
-    "static/js/main.dad4b3eb.js"
+    "static/css/main.84b2b240.css",
+    "static/js/main.53b958eb.js"
   ]
 }
