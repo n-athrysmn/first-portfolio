@@ -12,7 +12,7 @@ const Header = () => {
 	const [text, setText] = useState('')
 	const [delta, setDelta] = useState(300 - Math.random() * 100)
 	const [index, setIndex] = useState(1)
-	const toRotate = ['Software Engineer', 'Web Developer', 'Web Designer']
+	const toRotate = ['Athira', 'a Software Engineer', 'a Web Developer', 'a Web Designer']
 	const period = 2000
 
 	useEffect(() => {
@@ -66,13 +66,13 @@ const Header = () => {
 								>
 									<span className='tagline'>Welcome to my Portfolio</span>
 									<h1>
-										Hi, I'm Athira! A {' '}
+										Hi, I'm {' '}
 										<span className='txt-rotate'>
 											<span className='wrap'>{text}</span>
 										</span>
 									</h1>
 									<p>
-										Full Stack Engineer with experience delivering scalable web and mobile applications using React, Node.js, Laravel, and cloud technologies. Proven track record in building high-impact features, optimizing performance, and integrating third-party services, with a strong focus on clean code, reliability, and user experience.
+										Versatile Full Stack Engineer | Web Specialist with Mobile Development Experience
 									</p>
 									<Row>
 										<Col xl={6} md={12} sm={12}>
