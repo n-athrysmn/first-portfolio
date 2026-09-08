@@ -2,7 +2,7 @@ import './header.css'
 import { React, useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import headerImg from '../../assets/header-img.svg'
-import cv from '../../assets/SoftwareEngineer - NoraAthiraYasmin - CV.pdf'
+import cv from '../../assets/Software Engineer - Nora Athira Yasmin Binti Kassim.pdf'
 import { BsArrowRightCircle } from 'react-icons/bs'
 import TrackVisibility from 'react-on-screen'
 
