@@ -9,6 +9,7 @@ import ProjectSS from './ProjectSS'
 import colorSharp2 from '../../assets/color-sharp2.png'
 import './projects.css'
 import TrackVisibility from 'react-on-screen'
+import ProjectList from './ProjectList'
 
 export const Projects = () => {
 	return (
@@ -28,75 +29,11 @@ export const Projects = () => {
 										Discover the Power of my expertise: An in-depth look at my
 										all of my past software related projects.
 									</p>
-									<Tab.Container id='projects-tabs' defaultActiveKey='first'>
-										<Nav
-											variant='pills'
-											className='nav-pills mb-5 justify-content-center align-items-center'
-											id='pills-tab'
-										>
-											<Nav.Item>
-												<Nav.Link eventKey='first'>Strato Solutions</Nav.Link>
-											</Nav.Item>
-											<Nav.Item>
-												<Nav.Link eventKey='second'>
-													LCP Buildsoft Technology
-												</Nav.Link>
-											</Nav.Item>
-											<Nav.Item>
-												<Nav.Link eventKey='third'>GR Tech</Nav.Link>
-											</Nav.Item>
-											<Nav.Item>
-												<Nav.Link eventKey='forth'>Top Click</Nav.Link>
-											</Nav.Item>
-											<Nav.Item>
-												<Nav.Link eventKey='fifth'>Others</Nav.Link>
-											</Nav.Item>
-										</Nav>
-										<Tab.Content
-											id='slideInUp'
-											className={
-												isVisible ? 'animate__animated animate__slideInUp' : ''
-											}
-										>
-											<Tab.Pane eventKey='first'>
-												<Row>
-													{ProjectSS.map((ProjectAR, index) => {
-														return <ProjectCards key={index} {...ProjectAR} />
-													})}
-												</Row>
-											</Tab.Pane>
-											<Tab.Pane eventKey='second'>
-												<Row>
-													{[...ProjectAR, ...ProjectLCP].map((project, index) => (
-														<ProjectCards key={index} {...project} />
-													))};
-												</Row>
-											</Tab.Pane>
-											<Tab.Pane eventKey='third'>
-												<Row>
-													{ProjectGR.map((ProjectGR, index) => {
-														return <ProjectCards key={index} {...ProjectGR} />
-													})}
-												</Row>
-											</Tab.Pane>
-											<Tab.Pane eventKey='forth'>
-												<Row>
-													{ProjectTC.map((ProjectTC, index) => {
-														return <ProjectCards key={index} {...ProjectTC} />
-													})}
-												</Row>
-											</Tab.Pane>
-											<Tab.Pane eventKey='fifth'>
-												<Row>
-													{ProjectOther.map((ProjectOther, index) => {
-														return (
-															<ProjectCards key={index} {...ProjectOther} />
-														)
-													})}
-												</Row>
-											</Tab.Pane>
-										</Tab.Content>
-									</Tab.Container>
+									<Row>
+									{ProjectList.map((project, index) => {
+										return <ProjectCards key={index} {...project} />
+									})}
+									</Row>
 								</div>
 							)}
 						</TrackVisibility>

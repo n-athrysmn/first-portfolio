@@ -66,7 +66,7 @@ const Header = () => {
 								>
 									<span className='tagline'>Welcome to my Portfolio</span>
 									<h1>
-										{`Hi! I'm Nora, `}{' '}
+										Hi, I'm Athira! A {' '}
 										<span className='txt-rotate'>
 											<span className='wrap'>{text}</span>
 										</span>
